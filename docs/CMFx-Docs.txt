@@ -1,0 +1,70 @@
+Welcome to the CMFx Documentation
+
+Overview
+CMFx is a third-party companion app for the CMF Watch Pro 2, designed to enhance your watch experience by providing valuable tools and insights. CMFx offers a range of features to assist you in managing watch faces, monitoring your health, and staying connected — all without replacing Nothing X.
+
+Features
+
+Faces
+- Browse the FMC watch-face catalog and download faces.
+- Install downloaded faces to the watch, or pick a slot to replace.
+- Browse and manage your downloaded faces (with thumbnails).
+
+Health
+- Run a Health Preview to sync activity, heart rate, SpO2, stress and sleep.
+- View a health overview card with steps, distance, calories, heart rate, sleep, SpO2.
+- Sleep summary card with deep/light/REM/awake breakdown and quality score.
+
+Weather
+- Weather card with current conditions, hourly and 7-day forecast (Open-Meteo).
+- Push weather to the watch; auto-sync every hour.
+
+Companion controls
+- Find watch, do-not-disturb, send music, notifications forwarding.
+
+Debug
+- Check auth key (Gadgetbridge), probe installed dial ids, view logs.
+
+Overlays
+CMFx adds an in-app guide (this page) and a status dashboard you can reach from the Debug tab.
+
+Language compatibility
+CMFx uses English for all UI and log output.
+
+Getting Started
+To get started with CMFx, follow the steps in the Installing section below.
+
+Installing
+- CMFx installs CMF Watch Pro 2 watch-face .bin files over Bluetooth LE. Nothing X stays installed and untouched.
+
+Prerequisites
+- Android 8.0 or later, Bluetooth LE, self-signed dev.cmfx APK (~65 KB), allow install unknown apps.
+
+Step 1: Get the CMFx APK
+- Download the latest build from the releases archive, or build with app/build.ps1.
+
+Step 2: Install CMFx
+- Install via adb or file manager; allow install unknown apps.
+
+Step 3: Launch CMFx
+- Launch from the launcher and grant Bluetooth permissions when asked.
+
+Step 4: Connect to the watch
+- Open CMFx, grant Bluetooth permissions, and connect to the watch. Keep Nothing X disconnected while CMFx connects.
+
+Next steps: features
+- Faces: browse FMC watch faces, download, and install to the watch.
+- Health Preview: tap Update Health Preview to run an activity sync.
+- Companion controls: find watch, do-not-disturb, music, notifications.
+
+Congratulations: you have successfully installed CMFx.
+
+Support and Feedback
+For any questions, issues, or feedback, check the Debug tab logs or the session logs in Documents/CMFx/Logs.
+
+Thank you for choosing CMFx to enhance your CMF Watch Pro 2 experience!
+
+Troubleshooting
+- Install fails or signature mismatch: use the self-signed CMFx APK, not a re-signed Nothing X build.
+- BLE will not connect: Bluetooth on, watch in range, Nothing X not holding the watch.
+- Health Preview fails: check Documents/CMFx/Logs; a DeadObjectException means the BLE session must be re-established.
