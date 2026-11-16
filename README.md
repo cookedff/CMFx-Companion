@@ -96,6 +96,5 @@ redistributed; this is personal use.
 ## Credits
 
 Protocol research from the FMC browser client and Gadgetbridge. Typeface: Ndot by
-Nothing (via [xeji01/nothingfont](https://github.com/xeji01/nothingfont)). Docs layout
-inspired by [AlecaFrame Docs](https://docs.alecaframe.com/welcome).
+Nothing (via [xeji01/nothingfont](https://github.com/xeji01/nothingfont)).
 
