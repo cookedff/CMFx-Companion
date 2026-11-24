@@ -6,6 +6,11 @@ A companion for CMF Watch Pro 2 wrist companion ;)
 A standalone Android companion app for the **CMF Watch Pro 2**. Could work with other watches ;). It installs watch-face (and a little bit extra.) `.bin` files over Bluetooth LE, syncs health data, pushes weather, and forwards
 notifications — while **Nothing X stays installed and untouched**.
 
+<img width="1080" height="2392" alt="Screenshot_20261124-200911" src="https://github.com/user-attachments/assets/729ae1f0-4554-4828-9684-49c92a5fe595" />
+<img width="1080" height="2392" alt="Screenshot_20261124-200933" src="https://github.com/user-attachments/assets/6830fb95-4e18-448e-94ee-bfe3d58cbd4d" />
+<img width="1080" height="2392" alt="Screenshot_20261124-200938" src="https://github.com/user-attachments/assets/932fbfb6-4c4f-4cca-8941-b9bcefe9bfb1" />
+
+
 ```
 Package   dev.cmfx
 App       app/
